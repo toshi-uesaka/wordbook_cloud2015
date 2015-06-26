@@ -1,0 +1,18 @@
+*{
+   font-size: 50px;
+}
+
+body{
+   margin: 0;
+   color: white;
+   background: url("img/background.jpg");
+   background-position: bottom right;
+   background-size: cover;
+}
+
+div#contentsWrapper{
+   width: 90%;
+   height: 100%;
+   margin: 0 auto;
+   background: rgba(0,0,0,0.7);
+}

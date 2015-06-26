@@ -1,0 +1,16 @@
+div#Paper{
+	display: table-cell;
+	background: white;
+	margin: 0 auto;
+	width: 400px;
+	height: 300px;
+	color: black;
+	font-size: 48px;
+	text-align: center;
+	vertical-align: middle;
+}
+/*
+div#Definition{
+	background: white;
+}
+*/

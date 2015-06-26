@@ -1,0 +1,50 @@
+<!DOCTYPE>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta http-equiv="Content-Javascript-Type" content="text/javascript">
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<title>add_del_page</title>
+
+	<script type="text/javascript">
+	
+	function check1(){
+		if(document.form1.add_str1.value==""){
+			window.alert("追加する単語を入力してください");
+			return false;	
+		}
+		else if (document.form1.add_str2.value==""){
+			window.alert("訳を入力してください");
+			return false;
+		}
+		else{
+			return true;
+		}
+	}
+
+	function check2(){
+		if(document.form2.del_str1.value==""){
+			window.alert("削除する単語を入力してください")
+			return false;
+		}
+		else return true;
+	}
+	</script>
+</head>
+
+<body>
+	<div id="contentsWrapper">
+	<form action="" name="form1" method="POST" onSubmit="return check1()" entype="">
+		<h3>add</h3>
+		word : <input type="text" name="add_str1"><br>
+		def :  <input type="text" name="add_str2"><br>
+		<input type="submit" value="追加" >
+	</form>
+
+        <form action=""  name="form2" method="POST" onSubmit="return check2()" entype="">
+        	<h3>delete</h3>
+       		 word : <input type="text" name="del_str1"><br>
+       		 <input type="submit" value="削除" >     
+        </form>
+	</div> 		
+</body>

@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+body{
+	background-color: black;
+	margin-top: 50pt;
+	font-family: 'Impact';
+	text-align: center;
+}
+
+div.note {
+	background-color: white;
+}
