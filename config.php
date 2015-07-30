@@ -1,5 +1,4 @@
 <?php
-
 	$database = 'Word_Memory';
 	$username = 'root';
 	$password = 'cloudclass76ubuntu';

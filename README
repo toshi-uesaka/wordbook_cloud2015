@@ -1,0 +1,15 @@
+<2015.6.29,10:00:00, by Qishen Ha>
+fixed bugs of login and register.
+
+I have separate index.php and login.php
+
+while index.php is only a form of login, 
+and login.php accesses database and deal with login performance.
+
+And the same as register.php and register_process.php
+
+While register.php is only a form, and register_process.php deal with the performance.
+
+Added a new file called error.php , which can deal with all error, hopefully.
+
+<end>

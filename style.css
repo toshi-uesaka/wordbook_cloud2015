@@ -16,3 +16,27 @@ div#contentsWrapper{
    margin: 0 auto;
    background: rgba(0,0,0,0.7);
 }
+
+div#listWrapper{
+   width: 90%;
+   font-size: 30px;
+   margin: 0 auto;
+   text-align:center;
+   background: rgba(0,0,0,0.7);
+}
+
+a{
+	text-decoration: none;
+}
+
+a:link,a:visited{
+	color: #a9a9a9;
+}
+
+a:hover{
+	color: #98fb98;
+}
+
+a:active{
+	color: #fbfb98;
+}
